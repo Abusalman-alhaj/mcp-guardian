@@ -1,0 +1,11 @@
+{
+  "server": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:/Users/YOUR_USER/Documents"],
+    "env": {}
+  },
+  "approval_timeout_seconds": 120,
+  "deny_on_timeout": true,
+  "show_full_arguments": true,
+  "audit_file": "guardian-audit.jsonl"
+}
